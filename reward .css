@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(190, 219, 217);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+/*header*/
+.header{
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    height: 35px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    position: sticky;
+    top: 0;
+    box-shadow: 2px 2px 4px black;
+}
+.name {
+    font-size: 48px;
+    font-weight: bold;
+    color: brown;
+}
+.link {
+    padding-left: 40px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    font-weight: bold;
+}
+.link:hover{
+    color: rgb(11, 85, 60);
+
+}
+.link:active{
+    color: blue;
+}
+.header2{
+    width: 70%;
+    height: 100px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+    
+}
+
+.h {
+    font-size: 35px;
+    font-weight: bold;
+    justify-content: center;
+    color: rgb(228, 235, 89);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.wrapper {
+   padding-top: 40px;
+   background-color: rgb(221, 230, 229);
+   padding-bottom: 40px;
+}
+.row {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.right {
+    width: 30%;
+    height:80% ;
+    background-color:pink;
+  
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.left {
+    width: 50%;
+   font-family: 'Roboto Slab', serif;
+}
+.leftInner {
+    width: 95%;
+    height: 80%;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(26, 92, 150);
+    text-shadow:2px 2px 5px gold ;
+}
+.cuponHeader {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 20%;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 28px;
+    font-weight: bold;
+    color: gold;
+    text-shadow: 2px 2px 5px black;
+}
+/*formal cupon*/
+.formalCoupon {
+    padding-top: 40px;
+    width: 80%;
+    height: 600px;
+    background-color: rgb(115, 255, 0);
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.couponWrapper {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.couponBox {
+    width:100% ;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+   
+    margin: 0 auto;
+}
+.couponLeft {
+    width: 25%;
+    height: 100%;
+    background-color: deeppink;
+}
+.couponRight {
+    width: 50%;
+    height: 100%;
+    background-color: coral;
+}
+img {
+    width:100% ;
+    height: 100%;
+}
+/*promotionTerm*/
+.promotionTerm {
+    margin-top: 100px;
+    background-color: darksalmon;
+}
+.promotionInner{
+    width: 90%;
+    height: 400px;
+    margin-top: 30px;
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+}

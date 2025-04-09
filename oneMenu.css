@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(75, 40, 15);
+    background-color: rgb(180, 132, 97);
+}
+h1{
+    font-family: 'Preahvihear', sans-serif;
+    font-weight:bolder;
+   
+}
+h2 {
+    font-family: 'Preahvihear', sans-serif;
+    font-weight: bolder;
+   
+}
+/*header*/
+.header{
+    width: 100%;
+    height: 35px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    position: sticky;
+    top: 0;
+}
+.name {
+    font-size: 48px;
+    font-weight: bold;
+    color: brown;
+}
+.link {
+    padding-left: 40px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    font-weight: bold;
+}
+.link:hover{
+    color: rgb(11, 85, 60);
+
+}
+.link:active{
+    color: blue;
+    
+}
+/*wrapper*/
+.wrapper {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: white;
+}
+.left {
+    width: 50%;
+    background-color: ;
+    
+}
+.leftBox {
+    width:370px ;
+    height: 400px; 
+    padding-top: 60px;
+    margin: 0 auto;
+}
+.right {
+    width: 50%;
+    height: 400px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+/*customize*/
+.customize {
+   width: 100%;
+   padding: 30px 0px 0px 0px;
+   background-color: ;
+}
+.customizeInnerBox {
+    width: 95%;
+    margin: 0 auto;
+}
+.customizeWrapper {
+  width: 100%;
+  height: 160px;
+  background-color:;
+  display: flex;
+  justify-content: space-around;
+}
+.cs {
+    width: 230px;
+    height: 100%;
+    background-color: ;
+}
+
+/*size*/
+.container {
+    width:100% ;
+    height: 46px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: ;
+}
+.size {
+    width:40px ;
+    height: 35px;
+    border: 1px solid black;
+    background-color: ;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 6px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.size:active::before {
+    background-color: none;
+}
+.size::before{
+    pointer-events: none;
+}
+.size:focus {
+    background-color: chocolate;
+}
+input {
+    width: 100%;
+    height: 90%;
+    border: 2px solid grey;
+    border-radius: 27px;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+}
+table {
+    width: 600px;
+    height: 700px;
+     
+}
+tr {
+    height: 50px;
+    border-bottom:1px solid black ;
+}
+text {
+    font-size: 16px;
+    font-weight: bold;
+}

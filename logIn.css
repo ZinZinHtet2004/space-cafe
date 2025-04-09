@@ -1,0 +1,110 @@
+body {
+    font-family:'Roboto Mono',monospace ;
+    background-repeat: no-repeat;
+    background-image: url(https://www.dunkindonuts.com/content/dam/dd/img/adadesign/contactUs/Coffee_Donut_Desktop_new1439x272.png);
+    background-attachment: fixed;
+    background-size: 100% 40%;
+}
+.container {
+    width: 500px;
+    height: 520px;
+    margin:70px auto ;
+    border-radius: 6px;
+    border: 3px solid black ;
+    background:rgb(247, 196, 196) ;
+    animation-name: example;
+    animation-duration:2s;
+    position: relative;
+    animation-iteration-count:1;
+    
+}
+@keyframes example{
+    0%{background-color: rgb(237, 192, 138);box-shadow: 2px 2px 3px rgb(143, 143, 204);top: 0;left:800px;}
+    25%{background-color:rgb(244, 211, 171) ;box-shadow: 2px 3px 4px rgb(102, 102, 192);top: 0;left: 600px; }
+    50%{background-color:rgb(213, 176, 131) ;box-shadow: 2px 4px 5px rgb(54, 54, 161);top: 0;left:400px; }
+    75%{background-color:rgb(213, 176, 131) ;box-shadow: 2px 4px 5px rgb(54, 54, 161);top: 0;left:200px; }
+    100%{background-color:rgb(213, 176, 131) ;box-shadow: 2px 4px 5px rgb(54, 54, 161);top: 0;left:0; }
+    
+}
+.innerBox {
+    width: 50%;
+    margin: 53px auto;
+}
+.logIn {
+    font-size: 33px;
+    word-spacing: -8px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+
+.box1 {
+    width: 250px;
+    height: 35px;
+    background-color:#1877F2;
+    color:#FFFFFF ;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+   
+}
+.box2{
+    width: 250px;
+    height: 35px;
+    background-color:#000000;
+    color:#FFFFFF ;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Roboto Mono',monospace ;
+    letter-spacing: -1px;
+}
+.input {
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom:1px solid black ;
+    width:200px;
+    height: 33px;
+    background:none ;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 10px;
+    outline: none;
+}
+.text {
+    font-size: large;
+    margin: 15px 0px;
+    letter-spacing: -1px;
+}
+.but {
+    width: 150px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color:#3881BA;
+    border: none;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 16px;
+}
+.link2 {
+    text-decoration: none;
+    color: inherit;
+   
+    letter-spacing: -1px;
+}
+.cl{
+    color: #286cebfe ;
+    border-bottom: 1px solid #286cebfe;
+}
